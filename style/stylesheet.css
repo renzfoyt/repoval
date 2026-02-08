@@ -1,0 +1,61 @@
+@font-face {
+    font-family: pixl;
+    src: url("/fonts/PixelifySans-Regular.ttf");
+}
+
+.btnContainer {
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: grid;
+    height: 79vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -239px;
+
+}
+
+img {
+    width: 160px;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 11px;
+    border-style: dashed;
+    font-family: pixl;
+    font-size: 1.5em;
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: #46291F;
+    background-color: rgb(255, 219, 219);
+}
+
+p {
+    display: flex;
+    width: 200px;
+    position: relative;
+    right: 10px;
+    top: 8px;
+    align-items: center;
+    text-align: center;
+    font-family: pixl;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #46291F;
+}
+@keyframes grow {
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+}
